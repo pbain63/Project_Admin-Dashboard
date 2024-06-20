@@ -30,8 +30,8 @@ h3:hover {
 }
 .sidebar-container svg:hover,
 .dashboard > img:hover,
-h1:hover,
-h3:hover {
+.sidebar-container h1:hover,
+.sidebar-container h3:hover{
   cursor: pointer;
   border: 3px solid #06b6d4;
   text-shadow: 2px 2px 10px blue;
@@ -79,7 +79,8 @@ h3 {
   justify-content: space-between;
   align-items: center;
   margin-left: 40px;
-  margin-right: 40px;
+  margin-right: 70px;
+  /*  */
 }
 .header-first-row-left {
   position: relative;
@@ -105,6 +106,57 @@ h3 {
   display: flex;
   gap: 20px;
   align-items: center;
+}
+.header-second-row-left img {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+
+}
+.header-first-row-right svg,img,h4:hover {
+
+ cursor: pointer;
+  border: 1px solid white;
+  text-shadow: 2px 2px 10px blue;
+}
+.header-second-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 40px;
+  margin-right: 70px;
+  /* gap: 20px; */
+}
+.header-second-row-left-mini-text h3,h6 {
+  
+  margin: 0;
+
+  
+}
+.header-second-row-left {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  gap: 20px;
+}
+.header-second-row-right {
+  display: flex;
+  gap: 20px;
+  
+
+}
+.header-second-row-right button {
+  padding: 5px 15px;
+  border-radius: 15px;
+  background-color: #06b6d4;
+  color: white;
+  border: none;
+}
+.header-second-row-right button:hover {
+  background-color: white;
+  color: #06b6d4;
+  border: 1px solid #06b6d4;
+  cursor: pointer;
 }
 .main-content-container {
   background-color: #e2e8f0;
