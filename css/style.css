@@ -23,9 +23,41 @@ body {
 }
 .header-first-row svg {
   /* background-color: red; */
-  height: 30px;
+  height: 20px;
 }
 .header-first-row-right img {
   height: 50px;
   border-radius: 50%;
+}
+.header-first-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.header-first-row-left {
+    position: relative;
+}
+.header-first-row-left > svg {
+    /* display: flex; */
+    /* align-self:; */
+    /* background-color: red; */
+    position: absolute;
+    top: 7px;
+    left: 5px;
+}
+.header-first-row-left > input {
+    /* background-color: red; */
+    
+    padding: 5px;
+    border-radius: 15px;
+    padding-left: 25px;
+    font-size: 100%;
+    /* width: 600px; */
+}
+.header-first-row-right {
+    display: flex;
+    gap: 20px;
+    align-items: center;
 }
