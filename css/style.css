@@ -2,9 +2,24 @@ body {
     margin: 0;
     padding: 0;
 }
+.main-container {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-auto-rows: 1fr 4fr;
+
+
+}
 .dashboard {
     display: flex;
 }
 .dashboard > img {
     height: 50px;
+}
+.header-first-row svg {
+    /* background-color: red; */
+    height: 30px;
+}
+.header-first-row-right img {
+    height: 50px;
+    border-radius: 50%;
 }
