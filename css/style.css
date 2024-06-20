@@ -35,7 +35,7 @@ h3:hover {
 .sidebar-container svg:hover,
 .dashboard > img:hover,
 .sidebar-container h1:hover,
-.sidebar-container h3:hover{
+.sidebar-container h3:hover {
   cursor: pointer;
   border: 3px solid #06b6d4;
   text-shadow: 2px 2px 10px blue;
@@ -97,6 +97,7 @@ h3 {
   /* display: flex; */
   /* align-self:; */
   /* background-color: red; */
+  cursor: pointer;
   position: absolute;
   top: 7px;
   left: 5px;
@@ -119,11 +120,11 @@ h3 {
   height: 80px;
   width: 80px;
   border-radius: 50%;
-
 }
-.header-first-row-right svg,img,h4:hover {
-
- cursor: pointer;
+.header-first-row-right svg,
+img,
+h4:hover {
+  cursor: pointer;
   border: 1px solid white;
   text-shadow: 2px 2px 10px blue;
 }
@@ -135,11 +136,9 @@ h3 {
   margin-right: 70px;
   /* gap: 20px; */
 }
-.header-second-row-left-mini-text h3,h6 {
-  
+.header-second-row-left-mini-text h3,
+h6 {
   margin: 0;
-
-  
 }
 .header-second-row-left {
   display: flex;
@@ -150,8 +149,6 @@ h3 {
 .header-second-row-right {
   display: flex;
   gap: 20px;
-  
-
 }
 .header-second-row-right button {
   padding: 5px 15px;
