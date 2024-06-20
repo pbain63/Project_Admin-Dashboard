@@ -22,10 +22,20 @@ body {
 }
 .dashboard > img {
   height: 50px;
-  /* padding-right: 20px; */
-  /* margin-right: 20px; */
+ 
 }
+h1:hover, h3:hover{
+  cursor: pointer;
+  text-shadow: 2px 2px 10px blue;
+  /* font-size: 300%; */
+}
+.sidebar-container svg:hover, .dashboard > img:hover {
+  /* background-color: red; */
+  cursor: pointer;
+  border: 2px solid whitesmoke;
+  /* text-shadow: 2px 2px 10px blue; */
 
+} 
 .sidebar-container svg {
   height: 30px;
   /* color: white; */
