@@ -172,6 +172,7 @@ h6 {
   background-color: #e2e8f0;
   display: grid;
   grid-template-columns: 3fr 1fr;
+  /* grid-template-rows: 1fr; */
   gap: 15px;
   padding: 0px 20px;
 }
@@ -189,7 +190,7 @@ h6 {
   gap: 15px;
 }
 .projects-grid .card {
-  height: 150px;
+  height: 200px;
   box-shadow: -8px 0px 0px #854d0e;
   /* box-shadow: 1px 1px 5px black; */
 }
@@ -226,8 +227,9 @@ h6 {
 .card a {
   text-decoration: none;
 }
-.main-content-container-right-top .card {
+.main-content-container-right {
   /* padding: 20px; */
+  /* grid-column: 2 / 3; */
 }
 .announcements {
   padding-top: 3px ;
