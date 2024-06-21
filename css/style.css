@@ -8,7 +8,7 @@ body {
 }
 .main-container {
   display: grid;
-  grid-template-columns: 1fr 4fr;
+  grid-template-columns: 1fr 5fr;
   grid-auto-rows: 1fr 4fr;
 }
 .sidebar-container {
@@ -169,7 +169,18 @@ h6 {
   background-color: #e2e8f0;
   display: grid;
   grid-template-columns: 3fr 1fr;
-
+  gap: 15px;
+}
+.projects-grid {
+  grid-column: 1 / 2;
+  /* grid-row: ; */
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 15px;
+}
+.projects-grid .card {
+  height: 200px;
+  background-color: white;
 }
 .card-icons svg {
   height: 20px;
