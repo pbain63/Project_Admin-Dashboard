@@ -2,7 +2,8 @@ body {
   margin: 0;
   padding: 0;
   height: 100vh;
-  font-family: Helvetica, Arial, sans-serif, Roboto, "Segoe UI", system-ui,  "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: Helvetica, Arial, sans-serif, Roboto, "Segoe UI", system-ui,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 * {
   box-sizing: border-box;
@@ -205,6 +206,9 @@ h6 {
   position: relative;
   box-shadow: 1px 1px 10px black;
 }
+.card .title {
+  padding-bottom: 5px;
+}
 .card-icons {
   display: flex;
   gap: 25px;
@@ -224,10 +228,6 @@ h6 {
 }
 .card a {
   text-decoration: none;
-}
-.main-content-container-right {
-  /* padding: 20px; */
-  /* grid-column: 2 / 3; */
 }
 .announcements {
   padding-top: 3px;
