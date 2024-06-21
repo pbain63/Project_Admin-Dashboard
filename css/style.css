@@ -167,6 +167,9 @@ h6 {
 }
 .main-content-container {
   background-color: #e2e8f0;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+
 }
 .card-icons svg {
   height: 20px;
