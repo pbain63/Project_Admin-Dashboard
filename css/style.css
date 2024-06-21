@@ -170,6 +170,7 @@ h6 {
   display: grid;
   grid-template-columns: 3fr 1fr;
   gap: 15px;
+  padding: 0px 15px;
 }
 .projects-grid {
   grid-column: 1 / 2;
@@ -184,4 +185,7 @@ h6 {
 }
 .card-icons svg {
   height: 20px;
+}
+.main-content-container-right .card {
+  background-color: white;
 }
