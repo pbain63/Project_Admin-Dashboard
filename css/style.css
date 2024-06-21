@@ -70,7 +70,7 @@ body {
   /* box-shadow: 5px 10px  red; */
   /* border-bottom: 5px 5px  solid; */
 }
-.header-first-row svg {
+svg {
   /* background-color: red; */
   height: 20px;
 }
@@ -188,13 +188,35 @@ h6 {
 }
 .projects-grid .card {
   height: 150px;
-  background-color: white;
 }
 .card-icons svg {
-  height: 20px;
+  cursor: pointer;
+  /* margin-bottom: 0rem; */
+  /* align-self: ; */
 }
-.main-content-container-right .card {
+
+.card {
   background-color: white;
+  padding: 15px;
+  border-radius: 10px;
+  position: relative;
+}
+.card-icons {
+  display: flex;
+  gap: 25px;
+  /* justify-content: end; */
+  position: absolute;
+  bottom: 10px;
+  right: 15px;
+  /* margin: auto; */
+  /* flex-direction: column; */
+  
+  /* margin-top: 2rem; */
+
+  /* align-items:space-between; */
+  /* margin-top: 1rem; */
+  /* margin-left: 60px; */
+  /* background-color: red; */
 }
 .card a {
   text-decoration: none;
