@@ -68,9 +68,6 @@ body {
   grid-row: 1;
   /* margin-bottom: 10px; */
   padding-top: 15px;
-  padding-bottom: 10px;
-  /* box-shadow: 5px 10px  red; */
-  /* border-bottom: 5px 5px  solid; */
 }
 svg {
   /* background-color: red; */
@@ -235,6 +232,10 @@ h6 {
   padding-top: 3px ;
   padding-bottom: 20px;
 }
+.last-para {
+  padding-bottom: 7px;
+  /* background-color: red; */
+}
 .right-edge {
   padding-top: 20px;
 }
@@ -256,6 +257,7 @@ h6 {
 }
 .profile {
   font-size: 80%;
+  cursor: pointer;
 }
 .last-profile {
   padding-bottom: 0px;
