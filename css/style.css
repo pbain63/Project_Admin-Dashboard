@@ -230,10 +230,11 @@ h6 {
   /* padding: 20px; */
 }
 .announcements {
-  padding: 5px 0px;
+  padding-top: 3px ;
+  padding-bottom: 20px;
 }
 .right-edge {
-  padding-top: 5px;
+  padding-top: 20px;
 }
 .announcements a:hover {
   /* color: red; */
@@ -249,7 +250,11 @@ h6 {
   align-items: center;
   /* align-content: space-around; */
   gap: 15px;
+  padding-bottom: 20px;
 }
 .profile {
   font-size: 80%;
+}
+.last-profile {
+  padding-bottom: 0px;
 }
