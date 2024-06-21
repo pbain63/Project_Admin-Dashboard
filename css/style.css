@@ -2,6 +2,7 @@ body {
   margin: 0;
   padding: 0;
   height: 100vh;
+  font-family: Helvetica, Arial, sans-serif, Roboto, "Segoe UI", system-ui,  "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 * {
   box-sizing: border-box;
@@ -229,7 +230,7 @@ h6 {
   /* grid-column: 2 / 3; */
 }
 .announcements {
-  padding-top: 3px ;
+  padding-top: 3px;
   padding-bottom: 20px;
 }
 .last-para {
@@ -269,7 +270,6 @@ h6 {
   align-items: center;
   background-color: #0d9488;
   color: white;
-
 }
 .footer span {
   color: red;
