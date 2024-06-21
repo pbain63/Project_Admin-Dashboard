@@ -30,7 +30,9 @@ body {
 .dashboard > img {
   height: 50px;
 }
-
+.dashboard span {
+  font-size: 70%;
+}
 .sidebar-container svg:hover,
 .dashboard > img:hover,
 .sidebar-container h1:hover,
