@@ -181,10 +181,6 @@ h6 {
   padding-top: 20px;
   padding-bottom: 10px;
 }
-.main-content-container-left .card {
-  
- 
-}
 .projects-grid {
   grid-column: 1 / 2;
   /* grid-row: ; */
@@ -219,7 +215,7 @@ h6 {
   right: 15px;
   /* margin: auto; */
   /* flex-direction: column; */
-  
+
   /* margin-top: 2rem; */
 
   /* align-items:space-between; */
@@ -230,7 +226,7 @@ h6 {
 .card a {
   text-decoration: none;
 }
-.main-content-container-right-top .card{
+.main-content-container-right-top .card {
   /* padding: 20px; */
 }
 .announcements {
@@ -242,4 +238,18 @@ h6 {
 .announcements a:hover {
   /* color: red; */
   text-decoration: underline;
+}
+.main-last-column-right-trending img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+.main-last-column-right-trending {
+  display: flex;
+  align-items: center;
+  /* align-content: space-around; */
+  gap: 15px;
+}
+.profile {
+  font-size: 80%;
 }
