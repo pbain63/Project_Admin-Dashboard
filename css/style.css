@@ -68,11 +68,10 @@ body {
 .header-container {
   grid-column: 2;
   grid-row: 1;
-  /* margin-bottom: 10px; */
+
   padding-top: 15px;
 }
 svg {
-  /* background-color: red; */
   height: 20px;
 }
 .header-first-row-right img {
@@ -92,16 +91,12 @@ svg {
   position: relative;
 }
 .header-first-row-left > svg {
-  /* display: flex; */
-  /* align-self:; */
-  /* background-color: red; */
   cursor: pointer;
   position: absolute;
   top: 7px;
   left: 5px;
 }
 .header-first-row-left > input {
-  /* background-color: red; */
   background-color: #e2e8f0;
   padding: 5px;
   border-radius: 15px;
@@ -138,7 +133,6 @@ h4:hover {
   align-items: center;
   margin-left: 40px;
   margin-right: 70px;
-  /* gap: 20px; */
 }
 .header-second-row-left-mini-text h3,
 h6 {
@@ -146,7 +140,6 @@ h6 {
 }
 .header-second-row-left {
   display: flex;
-  /* justify-content: center; */
   align-items: center;
   gap: 20px;
 }
@@ -171,19 +164,17 @@ h6 {
   background-color: #e2e8f0;
   display: grid;
   grid-template-columns: 3fr 1fr;
-  /* grid-template-rows: 1fr; */
   gap: 15px;
   padding: 0px 20px;
 }
 .main-content-container-left h3,
 .main-content-container-right h3 {
-  /* background-color: red; */
   padding-top: 20px;
   padding-bottom: 10px;
 }
 .projects-grid {
   grid-column: 1 / 2;
-  /* grid-row: ; */
+
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 15px;
@@ -191,12 +182,9 @@ h6 {
 .projects-grid .card {
   height: 200px;
   box-shadow: -8px 0px 0px #854d0e;
-  /* box-shadow: 1px 1px 5px black; */
 }
 .card-icons svg {
   cursor: pointer;
-  /* margin-bottom: 0rem; */
-  /* align-self: ; */
 }
 
 .card {
@@ -212,19 +200,10 @@ h6 {
 .card-icons {
   display: flex;
   gap: 25px;
-  /* justify-content: end; */
+
   position: absolute;
   bottom: 10px;
   right: 15px;
-  /* margin: auto; */
-  /* flex-direction: column; */
-
-  /* margin-top: 2rem; */
-
-  /* align-items:space-between; */
-  /* margin-top: 1rem; */
-  /* margin-left: 60px; */
-  /* background-color: red; */
 }
 .card a {
   text-decoration: none;
@@ -235,13 +214,11 @@ h6 {
 }
 .last-para {
   padding-bottom: 7px;
-  /* background-color: red; */
 }
 .right-edge {
   padding-top: 20px;
 }
 .announcements a:hover {
-  /* color: red; */
   text-decoration: underline;
 }
 .main-last-column-right-trending img {
@@ -252,7 +229,7 @@ h6 {
 .main-last-column-right-trending {
   display: flex;
   align-items: center;
-  /* align-content: space-around; */
+
   gap: 15px;
   padding-bottom: 20px;
 }
