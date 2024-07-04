@@ -156,11 +156,11 @@ h6 {
   background-color: #06b6d4;
   color: white;
   border: none;
+  border: 1px solid #06b6d4;
 }
 .header-second-row-right button:hover {
   background-color: white;
   color: #06b6d4;
-  border: 1px solid #06b6d4;
   cursor: pointer;
 }
 .main-content-container {
