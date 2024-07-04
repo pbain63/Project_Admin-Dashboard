@@ -122,10 +122,13 @@ svg {
 
 .header-first-row-right svg,
 img,
-h4:hover {
+.title:hover {
   cursor: pointer;
   border: 1px solid white;
   text-shadow: 2px 2px 10px blue;
+}
+.header-first-row-right > h4 {
+  cursor: pointer;
 }
 .header-second-row {
   display: flex;
