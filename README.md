@@ -2,7 +2,7 @@
 
 
 
-The project is the final assignment of the Grid section from the "THE ODIN PROJECT". The project has a sidebar, header, main content, and footer section. These sections use SVGs, images by Grid, FlexBox, positioning, margin, etc.
+The project is the final assignment of a section from the "THE ODIN PROJECT". The project has a sidebar, header, main content, and footer section. These sections use SVGs, images by Grid, FlexBox, positioning, margin, etc.
 
 
 Live Preview Link:
