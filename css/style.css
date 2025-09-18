@@ -41,8 +41,6 @@ body {
 /* .sidebar-container h1:hover, */
 .sidebar-container h3:hover {
   cursor: pointer;
-  border: 3px solid #06b6d4;
-  text-shadow: 2px 2px 10px blue;
 }
 .sidebar-container svg {
   height: 30px;
