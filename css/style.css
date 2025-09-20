@@ -65,25 +65,26 @@ body {
 }
 
 .header-container {
+  /* border: 2px solid red; */
   grid-column: 2;
   grid-row: 1;
-
-  padding-top: 15px;
+  padding-top: 1rem;
 }
 svg {
-  height: 20px;
+  height: 1.25rem;
 }
 .header-first-row-right img {
-  height: 50px;
-  width: 50px;
+  height: 3.125rem;
+  width: 3.125rem;
   border-radius: 50%;
 }
 .header-first-row {
+  border: 2px solid red;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-left: 40px;
-  margin-right: 70px;
+  margin-left: 2.5rem;
+  margin-right: 4.375rem;
   /*  */
 }
 .header-first-row-left {
@@ -92,8 +93,8 @@ svg {
 .header-first-row-left > svg {
   cursor: pointer;
   position: absolute;
-  top: 7px;
-  left: 5px;
+  top: 22%;
+  left: 1%;
 }
 .header-first-row-left > input {
   background-color: #e2e8f0;
