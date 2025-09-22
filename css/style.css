@@ -202,8 +202,8 @@ h6 {
   display: flex;
   gap: 1.5625rem;
   position: absolute;
-  bottom: 10px;
-  right: 15px;
+  bottom: 5%;
+  right: 5%;
 }
 .card a {
   text-decoration: none;
