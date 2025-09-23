@@ -214,25 +214,24 @@ h6 {
   padding-bottom: 7px;
 }
 .right-edge {
-  border: 2px solid red;
   padding-top: 1.25rem;
 }
 .announcements a:hover {
   text-decoration: underline;
 }
 .main-last-column-right-trending img {
-  height: 50px;
-  width: 50px;
+  height: 3.125rem;
+  width: 3.125rem;
   border-radius: 50%;
 }
 .main-last-column-right-trending {
   display: flex;
   align-items: center;
-
-  gap: 15px;
-  padding-bottom: 20px;
+  gap: 1rem;
+  padding-bottom: 1.25rem;
 }
 .profile {
+  border: 2px solid red;
   font-size: 80%;
   cursor: pointer;
 }
