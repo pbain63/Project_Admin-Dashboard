@@ -173,9 +173,7 @@ h6 {
   padding-bottom: 0.625rem;
 }
 .projects-grid {
-  border: 2px solid red;
   grid-column: 1 / 2;
-
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 1rem;
@@ -210,13 +208,14 @@ h6 {
 }
 .announcements {
   padding-top: 3px;
-  padding-bottom: 20px;
+  padding-bottom: 1.25rem;
 }
 .last-para {
   padding-bottom: 7px;
 }
 .right-edge {
-  padding-top: 20px;
+  border: 2px solid red;
+  padding-top: 1.25rem;
 }
 .announcements a:hover {
   text-decoration: underline;
