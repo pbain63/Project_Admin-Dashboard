@@ -250,6 +250,7 @@ h6 {
 }
 
 @media (max-width: 1024px) {
+  .main-content-container-right,
   .footer {
     display: none;
   }
