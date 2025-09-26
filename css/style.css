@@ -256,8 +256,12 @@ h6 {
   }
 }
 @media (max-width: 770px) {
-  
- 
+  .dashboard img,
+  .sidebar-second-section svg,
+  .sidebar-third-section svg {
+    display: none;
+  }
+
   .main-content-container {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   }
