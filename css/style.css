@@ -256,12 +256,8 @@ h6 {
   }
 }
 @media (max-width: 770px) {
-  .dashboard h1,
-  .home h3,
-  .settings h3,
-  .main-content-container-right {
-    display: none;
-  }
+  
+ 
   .main-content-container {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   }
