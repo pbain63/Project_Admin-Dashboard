@@ -49,6 +49,4 @@ The project has a simple and straightforward file structure:
 
 ## Acknowledgements
 
-This project was created as part of a learning exercise.
-
-Inspiration was drawn from various admin dashboard designs on the web.
+This project was created as part of an assignment of THE ODIN PROJECT.
