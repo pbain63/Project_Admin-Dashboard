@@ -2,11 +2,17 @@
 
 A responsive admin dashboard built with HTML5, CSS3. This project showcases a clean and modern user interface for managing data and users.
 
+---
+
 ## [Live Demo](https://pbain63.github.io/Project_Admin-Dashboard/)
 
-## About the Project
+---
+
+## About the Projects
 
 This project is a front-end implementation of an admin dashboard. It is designed to be a user-friendly and visually appealing interface for administrators to monitor and control various aspects of an application. The dashboard is fully responsive and works well on different screen sizes, from mobile devices to desktops.
+
+---
 
 ## Features
 
@@ -14,11 +20,15 @@ Responsive Design: The layout adapts to different screen sizes for a seamless ex
 
 User Profile: A dedicated section for the user's profile information and settings.
 
+---
+
 ## Technologies Used
 
 HTML5: For the structure and content of the dashboard.
 
 CSS3: For styling and creating the responsive layout.
+
+---
 
 ## Getting Started
 
@@ -36,6 +46,8 @@ Clone the repo
 
 Open the `index.html` file in your browser.
 
+---
+
 ## Project Structure
 
 The project has a simple and straightforward file structure:
@@ -46,6 +58,8 @@ The project has a simple and straightforward file structure:
 ├── images / Images used in the page
 ├── index.html / HTML code
 └── README.md / README.md file for the project
+
+---
 
 ## Acknowledgements
 
