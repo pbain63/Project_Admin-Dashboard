@@ -64,3 +64,5 @@ The project has a simple and straightforward file structure:
 ## Acknowledgements
 
 This project was created as part of an assignment of THE ODIN PROJECT.
+
+---
